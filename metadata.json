@@ -1,0 +1,9 @@
+{
+  "uuid": "my-htb-ip@jimyhn",
+  "name": "Where is my HTB IP?",
+  "description": "Shows a cube and the IP of your active Hack The Box machine in the top bar while a VPN (tun/tap) is up. Click it to copy the IP. Needs an HTB App Token (Labs > Account Settings > App Tokens).",
+  "shell-version": ["46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.my-htb-ip",
+  "url": "https://github.com/JimyHN/Where-is-my-HTB-IP",
+  "version-name": "1.0.0"
+}

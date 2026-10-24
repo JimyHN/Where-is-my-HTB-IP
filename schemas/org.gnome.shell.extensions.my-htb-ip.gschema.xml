@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.my-htb-ip" path="/org/gnome/shell/extensions/my-htb-ip/">
+    <key name="logo-color" type="s">
+      <default>'#9fef00'</default>
+      <summary>Logo color</summary>
+      <description>Background color of the HackTheBox badge (hex, #rrggbb).</description>
+    </key>
+    <key name="ip-color" type="s">
+      <default>'#9fef00'</default>
+      <summary>IP color</summary>
+      <description>Text color of the machine IP (hex, #rrggbb).</description>
+    </key>
+    <key name="position" type="s">
+      <default>'right'</default>
+      <summary>Panel position</summary>
+      <description>Where the indicator goes in the top bar: left, center or right.</description>
+    </key>
+    <key name="position-index" type="i">
+      <range min="0" max="50"/>
+      <default>0</default>
+      <summary>Position inside the area</summary>
+      <description>Slot of the indicator inside the chosen area of the top bar, counted from the left.</description>
+    </key>
+    <key name="api-token" type="s">
+      <default>''</default>
+      <summary>HTB App Token</summary>
+      <description>App Token used to query the Hack The Box API for the active machine.</description>
+    </key>
+  </schema>
+</schemalist>
